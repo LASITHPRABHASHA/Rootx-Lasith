@@ -12,7 +12,7 @@ class PaymentScreen extends StatefulWidget {
 }
 
 class _PaymentScreenState extends State<PaymentScreen> {
-  String username = "Asela"; // Placeholder for the username
+  String username = "Lasith"; // Placeholder for the username
   int _selectedIndex =
       0; // For tracking the selected bottom navigation bar item
 
