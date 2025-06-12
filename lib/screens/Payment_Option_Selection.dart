@@ -16,7 +16,7 @@ class PaymentHomeScreen extends StatelessWidget {
           children: [
             const SizedBox(height: 20),
             const Text(
-              'Welcome Asela',
+              'Welcome Lasith',
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
