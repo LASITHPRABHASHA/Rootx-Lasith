@@ -1,0 +1,61 @@
+name: rootx_lasith # The name of your Flutter project; keep it lowercase with underscores.
+description: "A new Flutter project." # A short description of your project.
+
+# Remove 'publish_to: none' if you want to publish this package to pub.dev.
+publish_to: 'none'
+
+# The version of your app. Format: major.minor.patch+buildnumber
+version: 1.0.0+1
+
+environment:
+  # Specify the Dart SDK version compatible with your project.
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter # Core Flutter SDK for your project.
+
+  # Plugin to integrate Google Maps into the Flutter app.
+  google_maps_flutter: ^2.10.0 
+
+  # Default icons for iOS-styled components.
+  cupertino_icons: ^1.0.8
+
+  # QR code scanner package for adding QR functionality.
+  qr_code_scanner: ^0.7.0
+
+  # Library for internationalization and formatting (e.g., dates, currencies).
+  intl: ^0.20.1
+
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  # Testing library for Flutter apps.
+  flutter_test:
+    sdk: flutter
+
+  # Linter for analyzing code and enforcing style guidelines.
+  flutter_lints: ^4.0.0
+
+flutter:
+  # Enables the use of Material Design widgets in the app.
+  uses-material-design: true
+
+  # Uncomment the below section to include image or font assets in your app.
+  # Make sure the paths point to valid files in your project.
+
+  assets:
+    - assets/images/busNew.png
+    - assets/images/driver.png
+    - assets/images/passenger.png
+    - assets/images/busNew.png
+    - assets/images/bus2.png
+    - assets/images/logo-no-background.png
+    - assets/images/Login Page Vector .png
+
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700 # Optional: Specify weight for bold font.
